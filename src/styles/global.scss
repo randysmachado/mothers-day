@@ -1,0 +1,52 @@
+html {
+  font-size: 100%;
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+:root {
+  --white: #fff;
+  --pink-100: #FCE8E8;
+  --pink-200: #FF577F;
+
+  --gray-50: #f7f8fa;
+  --gray-800: #383A48;
+}
+
+@media (max-width: 1080px) {
+  html {
+    font-size: 93.75%; // 15px
+  }
+}
+
+@media (max-width: 720px) {
+  html {
+    font-size: 87.5%; // 14px
+  }
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Josefin Sans', sans-serif;
+  color: var(--gray-800);
+  background-color: var(--gray-50);
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+h1 {
+  font-size: 1.5rem;
+}
